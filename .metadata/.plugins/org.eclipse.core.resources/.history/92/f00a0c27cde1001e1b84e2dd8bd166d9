@@ -1,0 +1,31 @@
+package com.java.iury;
+
+import java.util.Scanner;
+
+public class Exer04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		Scanner scan = new Scanner(System.in);
+		
+		float a, b, res;
+		int x = 0;
+		
+		System.out.println("Enter the first value");
+		a = scan.nextInt();
+		
+		System.out.println("Enter the secund value");
+		b = scan.nextInt();
+		
+		System.out.println("Use one of the four operations.");
+		res = scan.nextInt();
+		
+		switch(res = a + b)
+		{
+		default:
+			break;			
+
+		}
+	}
+}

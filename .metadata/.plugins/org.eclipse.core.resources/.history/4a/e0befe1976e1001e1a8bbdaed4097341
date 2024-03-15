@@ -1,0 +1,17 @@
+package com.java.iury;
+
+public class LoopStructure {
+
+	public static void main(String[] args) {
+		
+		int c = 4;
+		
+		while (c == 4) {
+			c++;
+			System.out.println("Cambalhota");
+		}
+		
+
+	}
+
+}

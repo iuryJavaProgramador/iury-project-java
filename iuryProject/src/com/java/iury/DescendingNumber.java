@@ -1,0 +1,26 @@
+package com.java.iury;
+
+import java.util.Scanner;
+
+public class DescendingNumber {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int N;
+		
+		System.out.println("Enter an integer:");
+		N = scan.nextInt();
+		
+		System.out.println("Descending order:");
+		
+		for (N = N; N >= 0; N--) {
+			System.out.println("Number: "+N);
+		}
+
+
+		
+	}
+
+}

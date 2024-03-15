@@ -1,0 +1,46 @@
+package com.java.iury;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class RestauranteCseiro {
+	//Describe, in your own words, the calculation operation of the model that represents the Hypothetical Homemade Restaurant.
+	
+	    private List<ItemPedido1> itensPedidos;
+
+	    
+	    public void RestauranteCaseiro() {
+	        this.itensPedidos = new ArrayList<>();
+	    }
+
+	    
+	    public void adicionarItemPedido(ItemPedido1 itemPedido) {
+	        this.itensPedidos.add(itemPedido);
+	    }
+
+	    
+	    public double calculaConta() {
+	        double totalConta = 0.0;
+
+	       
+	        for (ItemPedido1 item : itensPedidos) {
+	            totalConta += item.getPrecoTotal();
+	        }
+
+	        return totalConta;
+	    }
+	}
+
+	    public class ItemPedido1 {
+	    private String name;
+	    private int quantidade;
+	    private double precoUnitario;
+
+	    
+
+	  
+	    public double getPrecoTotal() {
+	        return quantidade * precoUnitario;
+	    
+	}
+}

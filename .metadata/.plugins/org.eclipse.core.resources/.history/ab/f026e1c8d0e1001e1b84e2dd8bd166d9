@@ -1,0 +1,30 @@
+package com.java.iury;
+
+import java.util.Scanner;
+
+public class Exer04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Use one of the four operations.");
+		int operacao = scan.nextInt();
+		
+		switch (operacao) {
+		  case 1:
+			System.out.println("+");
+			break;
+		  case 2:
+				System.out.println(" -");
+				break;
+		  case 3:
+				System.out.println("x");
+				break;
+		  case 4:
+				System.out.println(" /");
+				break;
+		}
+	}
+}

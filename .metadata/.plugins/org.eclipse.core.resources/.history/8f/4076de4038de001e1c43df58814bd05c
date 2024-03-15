@@ -1,0 +1,21 @@
+package iuryProject;
+
+public class MyIntroduction {
+
+	public static void main(String[] args) {
+		
+		String name;
+		int age;
+		boolean profession;
+		
+		name = "iury";
+		age = 27;
+		profession = "developer" != null;
+		System.out.println("My name is " + name );
+		System.out.println("My age is" + age);
+		System.out.println("my favorite profession is" + profession);
+		
+
+	}
+
+}

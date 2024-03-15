@@ -1,0 +1,28 @@
+package com.java.iury;
+
+import java.util.Scanner;
+
+public class DescendingNumber {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int N;
+		
+		System.out.println("Enter an integer:");
+		N = scan.nextInt();
+		
+		cont(0 < N);
+		for (int n = 0; n < 0; n++) {
+			
+		}
+
+	}
+
+	private static void cont(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.java.iury;
+
+import java.util.Scanner;
+
+public class Exer04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		Scanner value = new Scanner(System.in);
+		
+		int n1, n2, sum;
+		
+		
+		System.out.println("Enter the first value");
+		n1 = value.nextInt();
+		
+		System.out.println("Enter the secund value");
+		n2 = value.nextInt();
+		
+		
+	
+		
+		switch (sum = n1 + n2)	
+		{	
+		case 1 :
+			System.out.println("sum");
+			break;
+		
+	   }
+	}
+}

@@ -1,0 +1,56 @@
+package com.java.iury;
+
+import java.util.Scanner;
+
+public class Exer04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		Scanner entrada = new Scanner(System.in);
+
+		float value1, value2;
+		char operacao;
+		
+		System.out.println("Choose your operation[+ - * /]: ");
+		operacao = entrada.nextLine().charAt(0);
+		
+		System.out.println("Enter the first value");
+		value1 = entrada.nextFloat();
+		
+		System.out.println("Enter the secund value");
+		value2 = entrada.nextFloat();
+		
+		switch ( operacao ) 
+		{
+		  case '+':
+			System.out.println("Value1 + value2 "  + (value1 + value2));
+			break;
+			
+		  case '-':
+				System.out.println("%.2f - %.2f = %.2f" + value1 + value2 + (value1 - value2));
+				break;
+				
+		  case '*':
+				System.out.println("%.2f * %.2f = %.2f" + value1 + value2 + (value1 * value2));
+				break;
+				
+		  case '/':
+				System.out.println("%.2f / %.2f = %.2f" + value1 + value2 + (value1 / value2));
+				break;
+				
+		  default:
+			  System.out.println("You entered an invalid operation.");
+              break;
+              
+		}
+	}
+}
+  
+
+
+		  
+		  
+		
+
+
