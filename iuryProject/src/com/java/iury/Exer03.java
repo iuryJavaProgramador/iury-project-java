@@ -11,7 +11,6 @@ public class Exer03 {
 		int n1;
 		int n2;
 		int sum;
-		int mult;
 		
 		System.out.println("Enter odd numbers between 0 and 30");
 		
